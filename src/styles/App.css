@@ -1,0 +1,427 @@
+/******************************************* Home css Starts ****************************************/ 
+
+body{
+    font-family: 'RobotoRegular', sans-serif;
+    font-size: 0.8em;
+    background:#f7f7f7;
+}
+header{
+    background-color: #e40046;
+   
+}
+.parent{
+    position: relative;
+}
+.parent-container{
+    position: relative;
+}
+.right-bar{
+    position: absolute;
+    top: 28%;
+    left: 140%;
+    z-index: 1000;
+}
+.a_hbot_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right-bar ul li a{
+    color: white;
+    font-size: 1rem;
+
+}
+.inputBox{
+    width: 519px;
+    height: 267px;
+    z-index: 1000;
+    box-shadow: 0px 0px 3px black;
+    display: none;
+    margin-left: 15px;
+}
+.inputBox ul a{
+    color: #333 !important;
+    font-size: large;
+}
+.inputBox ul a:hover{
+background: rgb(239, 234, 234) !important;
+}
+.list-unstyled{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.list-unstyled li{
+    margin: 7px 0px ;
+}
+
+.a_hform{
+    height: 37px;
+    width: 97%;
+    background-color:red(250, 241, 241);
+    border-radius: 1px;
+    margin-left: 40px;
+}
+.a_hform input{
+border: none !important;
+}
+.a_hform input:focus{
+    box-shadow: none !important;
+    border: none !important;
+}
+.a_hform input:focus + .inputBox{
+    display: block;
+}
+
+.a_header_top{
+    height: 30px;
+    background: #c7003d;
+}
+.a_header_top > .container {
+    height: 100%;
+    max-width: 1225px !important;
+}
+.first{
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.a_header_bottom{
+    height: 65px;
+    border: none;
+    z-index:1000;
+    background: #e40046;
+}
+.a_header_bottom > .container {
+    border: none;
+    height: 110%;
+    max-width: 1225px !important;
+}
+.snapdeal{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+   
+}
+.a_hbot_nav a{
+    display: block; 
+}
+.cart-modal{
+    background-color: red;
+}
+.a_b1{
+    margin-right: -65px;
+}
+.a_b1:hover{
+    margin-right: -80px;
+    background-color: #333;
+    padding: 1.0rem;
+    margin-top: -15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.a_hbot_nav > li:first-child{
+    border-color: #e40046 !important;
+}
+.a_hbot_nav > li:hover ul{
+    display: block;
+}
+.a_hbot_nav > li ul{
+    position: absolute;
+    width: 180px;
+    height: 310px;
+    background: #333;
+    z-index: 100px;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    display: none;
+    margin-left: -70px;
+}
+.sign-in-list{
+    background: black !important;
+}
+
+a{text-decoration:none;}
+.form-control{
+    width: 600px;
+    margin-left: 15px;
+    border-radius: 0px;
+}
+.search-color{
+    background-color: #000;
+}
+.search-btn{
+    border: none;
+    font-size: 20px;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3.5px;
+    padding-bottom: 4px;
+    background-color: #000;
+    height: 38px;
+    margin-bottom: 9px;
+    margin-top: -1px;
+    font-weight: 100px;
+    
+}
+.a_hbot_nav{
+    margin-left: 0px;
+}
+.new_user{
+    color: #d9bbbb;
+}
+.signin_bottom{
+    margin-top: 20px;
+}
+.a_main{
+    background-color: #f7f7f7;
+    
+    color: #777;
+    font-size: 15px; 
+}
+.a_main1{
+    
+    height: 673px;
+    max-width: 1225px !important; 
+    color: #777;
+  
+}
+.a_main1_b1{
+  
+    height: 716px;  
+}
+.main_b1_left{
+    
+    height: 716px; 
+}
+
+.asidenav a{
+    color: #333;
+    border-left: 3px solid white;
+    color: #777;
+    font-family: inherit;
+
+}
+.asidenav a:hover{
+    border-left: 3px solid #e40046;
+    background: #f2eaea;
+    color: #333;
+}
+.asidenav > li:hover > a{
+    border-left: 3px solid #e40046;
+    background: #f2eaea;
+    color: #333;
+}
+
+.asidenav_rightbox{
+    width: 900px;
+    height: 550px;
+    background-color: red;
+    z-index: 1000;
+    left: 190px;
+    display: none;
+}
+.asidenav > li:hover div{
+    display: none;
+}
+.asidenav2 a{
+    padding: 5px 10px 5px 10px !important;
+}
+.a_slider{
+    height: 345px;
+   
+}
+.carousel-indicators > button{
+
+    background-color: whitesmoke !important;
+    width: 220px !important;
+    height: 43px !important;
+    text-indent: 0px !important;
+    vertical-align: baseline !important;
+    border-bottom: #000 !important;
+    font: black;
+}
+/*.a_pinging{
+    height:476px;
+    width:849px;
+    background-image: url(https://couponswala.com/blog/wp-content/uploads/2021/10/Snapdeal-Upcoming-Sale.jpg);
+}*/
+.a_pinging{
+    margin-left: -8px;
+}
+
+.login{
+    border: none;
+    border-radius: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background: #7f7171;
+    color: #777;
+}
+.login-wrapper {
+    width:80%;
+    margin: 0 auto;
+    height:100vh;
+    display : flex;
+    align-items:center;
+    justify-content : center;
+  }
+  .register{
+    margin-top: 80px;
+   width: 1090px;
+   margin-left: 10%;
+}
+
+.next{
+    margin-top: -5px;
+    background: #d9bbbb;
+    color: #777;
+    border: none;
+    padding: 2px;
+    border-radius: 2px;
+    padding-left: 9px;
+    font-size: 15px;
+}
+.a_sliderrbox{
+    width: 255px;
+    height: 344px;
+    background: #f8efef;
+}
+.a_sliderrbox > div{
+height: 274px;
+
+}
+.a_trending_products{
+    height: 330px;
+    margin-top: 50px;
+    width: 1017px;
+    margin-left: -12px;
+    color: #000;
+    
+}
+.each-product{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.load{
+    margin-top: 120px ;
+}
+.carousel-item{
+    height: 300px;
+}  
+.carousel_trending a{
+    position: relative;
+z-index: 10000;
+padding: 20px !important;
+}
+
+.carousel_trending a:hover{
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0.3,0.3);
+   
+}
+
+.a_main2{
+  margin-top: 100px !important;
+    height: 455px;
+    margin-top: 500px;
+    
+   
+}
+footer{
+    background-color: #f7f7f7;
+   
+
+}
+/*.a_foot1{
+ 
+    height: 550px;
+    max-width: 1225px !important; 
+}*/
+.a_foot2 a:hover{
+    text-decoration: underline;
+}
+.a_foot2 a{
+color: #999;
+font-size: 15px;
+font-family: inherit;
+}
+.footer_para{
+    font-size: 15px;
+    font-family: inherit;
+    color: #8e8b8b;
+}
+.footer_head{
+    color: #949292;
+    font-family: inherit;
+}
+.a_foot2{
+   
+    height: 450px;
+    max-width: 1225px !important; 
+}
+.a_foot3{
+
+    height: 46px;
+    font-family: inherit;
+    color: #777;
+    max-width: 1225px !important; 
+}
+
+/*Animation*/
+.a_heart{
+    animation-name: heartbeat;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes heartbeat{
+    0%{
+     transform: scale(1,1);   
+    }
+    50%{
+        transform: scale(1.5, 1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.dld_banner{
+    background-image: url('https://i2.sdlcdn.com/img/appScreenshot@1x.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.dld_banner_right{
+    background-image: url('https://i2.sdlcdn.com/img/leaves1x.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.google{
+    background-image: url('https://i1.sdlcdn.com/img/newHomePageIcons@1x.png');
+    background-position: 0px 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.payment{
+    height: 500px;
+    width: 900px;
+    border: 1px dashed black;
+    margin-left: 225px !important;
+    margin-top: 50px;
+}
+
+/******************************************* Home css End ****************************************/ 
+
+/******************************************* Detail css Starts ****************************************/ 
+
+.a_dtl_prodCont {
+    height: 569px ;
+    max-width: 1242px;
+}
+
+/******************************************* Detail css End ****************************************/ 
